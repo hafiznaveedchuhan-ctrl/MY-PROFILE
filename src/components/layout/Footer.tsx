@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { ArrowUp, Github, Linkedin } from 'lucide-react';
+import { ArrowUp, Github, Linkedin, MessageCircle } from 'lucide-react';
 import { SocialLink } from '@/components/shared/SocialLink';
 
 export const Footer: React.FC = () => {
@@ -23,6 +23,11 @@ export const Footer: React.FC = () => {
 
           {/* Right side - Social & Back to top */}
           <div className="flex items-center gap-4">
+            <SocialLink
+              href="https://wa.me/923002385209?text=Hi%20Hafiz%2C%20I'm%20interested%20in%20your%20work"
+              icon={<MessageCircle size={20} />}
+              label="WhatsApp"
+            />
             <SocialLink
               href="https://linkedin.com/in/hafiz-naveed-uddin-h-n-96072524b"
               icon={<Linkedin size={20} />}

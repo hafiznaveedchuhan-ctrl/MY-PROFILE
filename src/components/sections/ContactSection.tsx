@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, MessageCircle } from 'lucide-react';
 import { SectionWrapper } from '@/components/shared/SectionWrapper';
 import { SectionHeading } from '@/components/shared/SectionHeading';
 import { GlowCard } from '@/components/shared/GlowCard';
@@ -67,6 +67,11 @@ export const ContactSection: React.FC = () => {
               <div>
                 <h4 className="font-semibold text-white mb-3">Connect</h4>
                 <div className="flex gap-3">
+                  <SocialLink
+                    href="https://wa.me/923002385209?text=Hi%20Hafiz%2C%20I'm%20interested%20in%20your%20work"
+                    icon={<MessageCircle size={20} />}
+                    label="WhatsApp"
+                  />
                   <SocialLink href={profile.linkedin} icon={<Linkedin size={20} />} label="LinkedIn" />
                   <SocialLink href={profile.github} icon={<Github size={20} />} label="GitHub" />
                 </div>
