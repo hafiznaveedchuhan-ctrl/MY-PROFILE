@@ -21,6 +21,19 @@ export const ContactSection: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Form */}
         <div className="lg:col-span-2">
+          <div className="mb-6 p-4 bg-amber-500/10 border border-amber-400/30 rounded-lg">
+            <p className="text-amber-300 text-sm mb-3">
+              📋 <strong>Prefer a structured form?</strong> Fill out my Google Form for detailed inquiries:
+            </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc_e6bVuU6Qo3Y3eO_hSHQrHzmOyMhdcMMmr6nlyo1uF8qpFw/viewform?usp=publish-editor"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-4 py-2 bg-amber-500/20 border border-amber-400/60 text-amber-300 hover:bg-amber-500/30 rounded transition-all duration-300"
+            >
+              Open Google Form →
+            </a>
+          </div>
           <ContactForm />
         </div>
 

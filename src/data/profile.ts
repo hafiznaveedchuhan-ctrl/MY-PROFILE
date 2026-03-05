@@ -9,8 +9,8 @@ export const profile: Profile = {
   phone: '0300-2385209',
   linkedin: 'https://linkedin.com/in/hafiz-naveed-uddin-h-n-96072524b',
   github: 'https://github.com/NAVEED261',
-  profileImage: '/images/naveed-profile.jpg',
-  cvPDF: '/cv/hafiz-naveed-uddin-cv.pdf',
+  profileImage: '/naveed cv image.jpg',
+  cvPDF: '/Hafiz_Naveed_Uddin_CV.pdf',
   stats: [
     { label: 'Certifications', value: '20+' },
     { label: 'Years Experience', value: '4+' },

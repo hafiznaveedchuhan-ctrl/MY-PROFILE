@@ -143,11 +143,12 @@ export const HeroSection: React.FC = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-cyan-500/30 to-violet-500/30 blur-2xl animate-pulse" />
 
               {/* Image container */}
-              <div className="relative w-full h-full rounded-3xl border-2 border-cyan-400/30 overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">👨‍💻</div>
-                  <p className="text-cyan-400 font-mono text-sm">Hafiz Naveed</p>
-                </div>
+              <div className="relative w-full h-full rounded-3xl border-2 border-cyan-400/50 overflow-hidden bg-gradient-to-br from-cyan-900/40 via-violet-900/40 to-black/80">
+                <img
+                  src={profile.profileImage}
+                  alt="Hafiz Naveed Uddin"
+                  className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300"
+                />
               </div>
             </div>
           </motion.div>
