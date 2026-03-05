@@ -28,6 +28,7 @@ export interface Skill {
   name: string;
   category: 'Agentic AI' | 'Cybersecurity' | 'Full-Stack' | 'Data Science';
   level: 'Beginner' | 'Intermediate' | 'Advanced' | 'Expert';
+  year?: string;
 }
 
 export interface Experience {

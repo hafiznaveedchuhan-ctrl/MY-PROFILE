@@ -11,7 +11,7 @@ export const EducationSection: React.FC = () => {
     <SectionWrapper id="education">
       <SectionHeading label="Learning" title="Education" subtitle="Academic and professional development journey" />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         {education.map((edu) => (
           <EducationCard key={edu.id} edu={edu} />
         ))}

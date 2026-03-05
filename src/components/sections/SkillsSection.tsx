@@ -36,7 +36,7 @@ export const SkillsSection: React.FC = () => {
               {skills
                 .filter((s) => s.category === category)
                 .map((skill) => (
-                  <SkillBadge key={skill.id} name={skill.name} level={skill.level} />
+                  <SkillBadge key={skill.id} name={skill.name} level={skill.level} year={skill.year} />
                 ))}
             </div>
           </TabsContent>
