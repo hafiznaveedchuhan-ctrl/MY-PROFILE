@@ -1,8 +1,8 @@
-# Hi there! 👋 I'm [Your Name]
+# Hi there! 👋 I'm HAFIZ NAVEED UDDIN
 
 ![Profile Banner](https://via.placeholder.com/1400x400) <!-- Replace this placeholder with a custom banner image -->
 
-I’m a passionate **[Your Role]** with a knack for solving complex problems using technology. My journey revolves around transforming ideas into reality while continuously evolving with the tech landscape.
+I’m a passionate **[AGENTIC AI DEVELOPER]** with a knack for solving complex problems using technology. My journey revolves around transforming ideas into reality while continuously evolving with the tech landscape.
 
 👨‍💻 **Currently working on:** `Building innovative solutions.`  
 🎯 **Goals for 2026:** `Explore AI-driven applications and improve deep learning models.`  
