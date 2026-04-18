@@ -12,7 +12,7 @@ export const education: Education[] = [
     id: 'dba-degree',
     degree: 'Diploma of Business Administration (DBA)',
     institution: 'Institute of Business & Management',
-    year: '2011',
+    year: '2009',
     description: 'Professional certification in business administration, covering organizational management, strategic planning, and digital transformation principles.',
   },
   {
