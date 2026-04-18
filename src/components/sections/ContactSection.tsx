@@ -26,7 +26,7 @@ export const ContactSection: React.FC = () => {
               📋 <strong>Prefer a structured form?</strong> Fill out my Google Form for detailed inquiries:
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSc_e6bVuU6Qo3Y3eO_hSHQrHzmOyMhdcMMmr6nlyo1uF8qpFw/viewform?usp=publish-editor"
+              href="https://forms.gle/4bPmYrSHGgeej1Mp7"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-4 py-2 bg-amber-500/20 border border-amber-400/60 text-amber-300 hover:bg-amber-500/30 rounded transition-all duration-300"
