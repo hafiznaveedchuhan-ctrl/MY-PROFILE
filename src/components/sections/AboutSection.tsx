@@ -52,7 +52,7 @@ export const AboutSection: React.FC = () => {
                 <p>• Contract/Freelance Work</p>
               </div>
               <a
-                href="mailto:HNAVEED264@gmail.com"
+                href="mailto:hafiznaveedchuhan"
                 className="mt-6 inline-block px-4 py-2 bg-cyan-500/20 border border-cyan-400/60 text-cyan-300 hover:bg-cyan-500/30 rounded text-sm transition"
               >
                 Let's Talk
