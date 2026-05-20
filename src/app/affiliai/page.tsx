@@ -106,11 +106,6 @@ export default function AffiliAIPage() {
               style={{ background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.3)', color: '#fca5a5' }}>
               📺 YouTube Demo
             </a>
-            <a href="https://github.com/hafiznaveedchuhan-ctrl/aliexpress-toppicks" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-base transition-all"
-              style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', color: '#94a3b8' }}>
-              💻 GitHub
-            </a>
           </div>
 
           {/* Stats */}
