@@ -75,6 +75,16 @@ export const Navbar: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
         >
           {NAV_LINKS.map((link, idx) => (
+            link.isPage ? (
+              <motion.div key={link.href}>
+                <Link
+                  href={link.href}
+                  className="relative px-4 py-2 text-sm font-bold transition-all duration-300 group text-cyan-300 bg-gradient-to-r from-cyan-500/20 to-violet-500/20 rounded-lg border border-cyan-400/30 hover:border-cyan-400/60 hover:from-cyan-500/30 hover:to-violet-500/30"
+                >
+                  {link.label}
+                </Link>
+              </motion.div>
+            ) : (
             <motion.a
               key={link.href}
               href={link.href}
@@ -87,15 +97,14 @@ export const Navbar: React.FC = () => {
               whileTap={{ scale: 0.98 }}
             >
               {link.label}
-              {/* Animated underline */}
               <span
                 className={`absolute bottom-0 left-0 h-0.5 bg-gradient-to-r from-cyan-400 to-violet-500 transition-all duration-300 ${
                   activeSection === link.href.substring(1) ? 'w-full' : 'w-0 group-hover:w-full'
                 }`}
               />
-              {/* Hover glow */}
               <div className="absolute inset-0 rounded-lg bg-cyan-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
             </motion.a>
+            )
           ))}
         </motion.div>
 
