@@ -2,6 +2,16 @@ import { Experience } from '@/types';
 
 export const experience: Experience[] = [
   {
+    id: 'affiliai-autopilot',
+    title: 'Founder & AI Engineer — AffiliAI Autopilot',
+    company: 'Self-Founded | aliexpress-toppicks.vercel.app',
+    duration: 'May 2026 – Present',
+    description:
+      'Built a fully automated AI-powered affiliate marketing system from scratch. Used Agentic AI tools (Claude AI, NotebookLM, Python) to research products, generate video content, automate SEO blog posts, and manage multi-platform distribution across YouTube, Pinterest, TikTok, LinkedIn, and Reddit. System targets USA, UK, Germany, Korea, and Canada markets with 14 factory-direct products generating passive income through AliExpress affiliate commissions.',
+    skills: ['Next.js', 'Python', 'Claude AI', 'NotebookLM', 'Vercel', 'GitHub Actions', 'SEO', 'Affiliate Marketing'],
+    isCurrent: true,
+  },
+  {
     id: 'piaic-ai-engineer',
     title: 'Agentic AI Engineer',
     company: 'PIAIC',
