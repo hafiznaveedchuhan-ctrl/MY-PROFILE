@@ -21,6 +21,9 @@ export interface Certification {
   category: 'AI & Agentic' | 'Cloud & Infrastructure' | 'Cybersecurity' | 'Data Science';
   credentialId?: string;
   link?: string;
+  featured?: boolean;
+  badge?: string;
+  skills?: string[];
 }
 
 export interface Skill {
